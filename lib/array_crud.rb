@@ -28,18 +28,20 @@ end
 
 def retrieve_element_from_index(array, index_number)
   array = ["Alvin", "Lauren", "Magic", "Beary"]
-  array([1])
+  array.([1])
 end
 
 def retrieve_first_element_from_array(array)
   array = ["Alvin", "Lauren", "Magic", "Beary"]
-  array
+  array.([0])
 end
 
 def retrieve_last_element_from_array(array)
   array = ["Alvin", "Lauren", "Magic", "Beary"]
+  array.([3])
 end
 
 def update_element_from_index(array, index_number, element)
+array = ["Alvin", "Lauren", "Magic", "Beary"]
 
 end
